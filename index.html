@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Normbalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <!-- Costom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="main-header-content">
+            <h1>Front End Developer</h1>
+            <hr>
+            <p>HTML CSS JavaScript</p>
+            <a href="" class="btn">More</a>
+        </div>
+    </header>
+
+    <nav class="main-menu">
+        <label for="drop-nav">Menu</label>
+        <input type="checkbox" id="drop-nav">
+        <ul>
+            <li class="menu-item"><a href="#about">O mnie</a></li>
+            <li class="menu-item"><a href="#skill">Skill</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <header class="section-header">
+                <h2>O mnie</h2>
+                <hr>
+            </header>
+            <img src="pictures/me.JPG" alt="Mykhailo Chui" class="about-img">
+
+            <p>Jestem Junior Front end developer, mam bardzo duzo chęci zeby sie rozwijac w programowaniu!
+            </p>
+            <p>Jestem: Nastawiony na realizowanie wyznaczonych celów! Potrafię pracować pod presją czasu! Posiadam zdolności negocjacyjne! Elastycznie reaguje na zmienne warunki! Potrafię pracować w grupie jak i podejmować samodzielne decyzje! Posiadam umiejętność
+                budowania i rozwiązanie długotrwałych projektów.</p>
+
+            <p>if you interested CONTACT ME</p>
+            <a href="" class="prt">CONTACT</a>
+
+        </div>
+    </section>
+
+    <section id="skill" class="skill">
+        <div class="container">
+            <header class="section-header">
+                <h2>Skill</h2>
+                <hr>
+            </header>
+
+            <div class="skill-wrapper">
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/bootstrap.jpg" alt="skill item 1">
+                    <h3>Bootstrap</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/git.jpg" alt="skill item 2">
+                    <h3>GIT</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/html.jpg" alt="skill item 3">
+                    <h3>HTML</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/js.jpg" alt="skill item 4">
+                    <h3>JavaScript</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/learn-css.jpg" alt="skill item 5">
+                    <h3>CSS</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/react.jpg" alt="skill item 6">
+                    <h3>React</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/sass.jpg" alt="skill item 7">
+                    <h3>Sass</h3>
+                </a>
+                <a href="" class="skill-item">
+                    <img src="pictures/skills/wordpress.jfif" alt="skill item 8">
+                    <h3>Wordpress</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Me</h2>
+                <p>Meet me by for a cup of coffee, or leave me a message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="pictures/skills.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                    <option value="australia">Poland</option>
+                    <option value="canada">Germany</option>
+                    <option value="usa">Austria</option>
+                    <option value="usa">Spain</option>
+                    <option value="usa">Italy</option>
+                  </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="" class="social-link"><i class="fab fa-facebook-square"></i></a>
+                <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Copyright by Mykhailo Chui</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,348 @@
+  /* Base style */
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Open sans', sans-serif;
+  }
+  
+  hr {
+      width: 70px;
+      border: 1px solid #007bff;
+      border-bottom: 0;
+  }
+  
+  section {
+      padding: 120px 0;
+  }
+  
+  .section-header {
+      margin-bottom: 75px;
+  }
+  
+  .section-header h2 {
+      color: #333;
+      font-size: 1.9em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 375;
+  }
+  
+  .prt {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #333;
+      border: 1px solid #007bff;
+      padding: 14px 20px;
+      transition: all .3s;
+      display: inline-block;
+  }
+  
+  .prt:hover {
+      color: #fff;
+      background-color: #007bff;
+  }
+  
+  .btn {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border: 1px solid #007bff;
+      padding: 14px 20px;
+      transition: all .3s;
+      display: inline-block;
+  }
+  
+  .btn:hover {
+      color: #fff;
+      background-color: #007bff;
+  }
+  
+  .container {
+      max-width: 1170px;
+      margin: 0 auto;
+  }
+  /* Header styles */
+  
+  .main-header {
+      height: 70vh;
+      background-image: url(../pictures/main.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .main-header .main-header-content {
+      text-align: center;
+  }
+  
+  .main-header .main-header-content h1 {
+      font-size: 3.2em;
+      color: #007bff;
+      text-transform: uppercase;
+      margin: 0;
+  }
+  
+  .main-header .main-header-content p {
+      color: #333;
+      font-size: 1.3em;
+      margin: 40px 0;
+  }
+  /* Main menu style */
+  
+  .main-menu {
+      background-color: #007bff;
+  }
+  
+  #drop-nav {
+      display: none;
+  }
+  
+  label[for="drop-nav"] {
+      display: none;
+  }
+  
+  .main-menu ul {
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+  }
+  
+  .main-menu ul .menu-item {
+      display: inline-block;
+      margin: 0 10px;
+  }
+  
+  .main-menu ul .menu-item a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      transition: all .3s;
+  }
+  
+  .main-menu ul .menu-item a:hover {
+      color: #007bff;
+      background-color: #fff;
+  }
+  /* About section style */
+  
+  .about {
+      text-align: center;
+  }
+  
+  .about .about-img {
+      border-radius: 40%;
+      width: 20%;
+      height: 20%;
+  }
+  
+  .about p {
+      max-width: 700px;
+      margin: 40px auto 30px auto;
+      color: #777;
+      line-height: 1.4;
+  }
+  /* Skill section style */
+  
+  .skill {
+      background-color: #f2f1ed;
+  }
+  
+  .skill-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .skill-wrapper .skill-item {
+      flex-basis: 25%;
+      height: 200px;
+      position: relative;
+  }
+  
+  .skill-wrapper .skill-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .skill-wrapper .skill-item h3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 123, 255, 0.8);
+      margin: 0;
+      text-align: center;
+      line-height: 200px;
+      color: #fff;
+      font-weight: 300;
+      font-size: 3em;
+      opacity: 0;
+      transition: all .3s;
+  }
+  
+  .skill-wrapper .skill-item h3:hover {
+      opacity: 1;
+  }
+  /* Contact section styles */
+  /* .contact P {
+      text-decoration-style: initial;
+      text-transform: uppercase;
+      color: #007bff;
+      padding: 14px 20px;
+      transition: all .3s;
+      display: inline-block;
+      text-shadow: 2px 2px 5px blue;
+      font-family: 'Open sans', sans-serif;
+  } */
+  
+  * {
+      box-sizing: border-box;
+  }
+  /* Style inputs */
+  
+  input[type=text],
+  select,
+  textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  
+  input[type=submit] {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #333;
+      border: 1px solid #007bff;
+      padding: 14px 20px;
+      transition: all .3s;
+      display: inline-block;
+      cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #007bff;
+  }
+  /* Style the container/contact section */
+  
+  .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 10px;
+  }
+  /* Create two columns that float next to eachother */
+  
+  .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+  }
+  /* Clear floats after the columns */
+  
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  
+  @media screen and (max-width: 600px) {
+      .column,
+      input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+      }
+  }
+  /* Social style */
+  
+  .social-links {
+      margin-top: 75px;
+      text-align: center;
+  }
+  
+  .social-links .social-link {
+      font-size: 2.5em;
+      color: #007bff;
+      transition: all .3s;
+      display: inline-block;
+      margin: 0 20px;
+  }
+  
+  .social-links .social-link:hover {
+      color: #777;
+  }
+  /* Main footer styles */
+  
+  .main-footer {
+      background-color: #f2f1ed;
+      padding: 30px;
+      text-align: center;
+      color: #777;
+  }
+  /* Responsive styles */
+  
+  @media (max-width: 1200px) {
+      .container {
+          max-width: 992px;
+      }
+  }
+  
+  @media (max-width: 992px) {
+      .container {
+          max-width: 768px;
+      }
+      .skill-wrapper .skill-item {
+          flex-basis: 50%;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      .container {
+          max-width: 95%;
+      }
+      .skill-wrapper .skill-item {
+          flex-basis: 100%;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .main-header .main-header-content h1 {
+          font-size: 3em;
+      }
+      .about .about-img {
+          max-height: 200px;
+          max-width: 200px;
+      }
+      label[for="drop-nav"] {
+          display: block;
+          padding: 14px 20px;
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 1.5em;
+          text-align: right;
+          cursor: pointer;
+      }
+      .main-menu ul {
+          display: none;
+      }
+      #drop-nav:checked+ul {
+          display: block;
+      }
+      .main-menu ul .menu-item {
+          display: block;
+          text-align: right;
+          margin: 0;
+      }
+  }
